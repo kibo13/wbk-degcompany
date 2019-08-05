@@ -1,0 +1,39 @@
+.feedback {
+  text-align: center;
+
+  &__item {
+    color: #FAFAFA;
+  }
+
+  &__text {
+    font-style: italic;
+    margin: 50px 0 30px;
+
+    span::before {
+      content: '“';
+      margin-right: 5px;
+    }
+
+    span::after {
+      content: '”';
+      margin-left: 5px;
+    }
+
+    span::after,
+    span::before {
+      font-family: serif;
+      font-size: 16px;
+      color: $link-color;
+      font-weight: bold;
+    }
+  }
+
+  &__author {
+    font-size: 14px;
+    letter-spacing: 1px;
+
+    span {
+      color: #78909C;
+    }
+  }
+}
