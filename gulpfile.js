@@ -110,7 +110,7 @@ gulp.task('images', function () {
     .pipe(cache(imagemin([
       imagemin.gifsicle({ interlaced: true }),
       imagemin.jpegtran({ progressive: true }),
-      imagemin.optipng({ optimizationLevel: 3 })
+      // imagemin.optipng({ optimizationLevel: 3 })
     ])))
     .pipe(gulp.dest(`${PATHS.dist}/img`))
 })
