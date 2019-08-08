@@ -3,7 +3,7 @@
     src="https://image.flaticon.com/icons/svg/857/857750.svg" 
     width="28"
     alt="LOGO"/>
-    DegCompany
+    Вёрстка сайта "DegCompany"
 </h1> 
 
 <strong><em>`Задача:`</em></strong> разработать адаптивный сайт под современные браузеры и мобильные устройства.<br>
